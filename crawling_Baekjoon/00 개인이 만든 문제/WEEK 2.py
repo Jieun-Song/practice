@@ -1,13 +1,13 @@
-#백준 10800
+# 백준 10800
+import sys
 
-n = int(n)
+n = int(input())
 color = []
 big = []
 
 for i in range(n):
-    c, b = input().split()
-    c = int(c)
-    b = int(b)
+    c, b = sys.stdin.readline().split()
+    c, b = int(c), int(b)
     color.append(c)
     big.append(b)
 
